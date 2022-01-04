@@ -1,0 +1,52 @@
+/* p{
+    color : red;
+    width: 500px;
+    border: 1px solid black;
+} */
+
+html{
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #00539F; /* Changing the page color */
+
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    /* Positioning and Styling the main page title */
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    
+} 
+
+img{
+    display: block; 
+    margin: 0 auto;
+}
+
+
+
+
+p,li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+
+} 
+
+/* Styling the body */
+body{
+    width: 600px; /* This forces the body to be 600 pixels wide. */
+    margin: 0 auto; /* The first value affects the element's top and bottom side (setting it to 0 in this case); 
+    the second value affects the left and right side. (Here, auto is a special value that divides the available hrizontal 
+    space evenly between left and right). */
+    background-color: #FF9500;  /* This sets the element's background color (Reddish orange for the body background color)*/
+    padding: 0 20px 20px 20px; /* No Padding at the top and 20px padding at right, bottom and left */
+    border: 5px solid black; /* This sets values for the width, style and color of the border. In this case,
+    it's a five pixel-wide , solid black border, on all sides of the body. */
+
+}
+
